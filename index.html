@@ -1,0 +1,238 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Segunda Aplicacion</title>
+
+<!--grupo CSS -->
+<link rel="stylesheet" href="css/temapp3.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body>
+<!--Principal -->
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> Volcan Popocatepetl </h1>
+    </div>
+    
+    <div data-role="main" class="ui-content">
+         <div data-role="collapsible" data-content-theme="false">
+           <h1>Tamaño, Antiguedad y Localización </h1>
+         <div>
+          <h3> Tamaño </h3>
+           <p>El popocatepetl es el segundo volcán más alto de México, con una altitud máxima de 5500 metros sobre el nivel del mar.</p>
+           <p>Su altura es de 5500 msnm, es de forma cónica, tiene un diámetro de 25 km en su base y la cima es el corte elíptico de un cono y tiene una orientación noreste-suroeste. La distancia entre las paredes de su cráter varía entre los 660 y los 840 m. </p>
+          <h3>Antiguedad </h3>
+          <p>El Popocatépetl es un volcán geológicamente joven. Se cree que tiene unos 730,000 años de antigüedad y que es remanente de volcanes antiguos que colapsaron. </p>
+          <h3> Localización </h3>
+          <p> En el centro de México, en los límites territoriales de los estados de Morelos, Puebla y México. Se localiza a unos 72 km al sureste de la Ciudad de México, 43 km de Puebla, 63 km de Cuernavaca, y 53 km de Tlaxcala. </p>
+          <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:960px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+         </div>
+       </div>
+     
+         <div data-role="collapsible" data-content-theme="false">
+           <h1> Actividad Volcanica </h1>
+         <div>
+          <h2> Alta actividad volcanica </h2>
+           <p> El Popocatépetl es conocido por su alta actividad volcánica, que se presenta comúnmente. Desde que se reactivó, en 1997, hasta el momento, ha presentado una serie de erupciones de las cuales la más violenta ha sido la del año 2000, y la última la noche del 4 y madrugada del 5 de noviembre de 2014. El volcán es uno de los más monitoreados del mundo y también es uno de los más peligrosos y que amenaza más de 26 millones de personas </p>
+           <img src="imagenes/Popocatepetl.jpg" width="80%" height="50%">
+           <h3><a href="http://www.cenapred.unam.mx:8080/monitoreoPopocatepetl/"> Presiona aqui para saber más...</a></h3>
+         </div>
+       </div>
+    
+         <div data-role="collapsible" data-content-theme="false">
+           <h1> Medidas de prevención ante caida de ceniza</h1>
+         <div>
+          <h2> ¿Qué hacer en caso de caida de ceniza? </h2>
+          <ul>
+           <li>No humedecer la ceniza a fin de evitar taponamientos en el sistema de alcantarillado. </li>
+           <li> Mantén la calma. </li>
+           <li>No realices actividades al aire libre y si es posible no salgas. </li>
+           <li> Si tienes que salir cúbrete con un pañuelo o tapabocas, limpia ojos y garganta con agua pura.</li>
+           <li> Para los ojos, usa lentes protectores, especialmente si usas lentes de contacto </li>
+           <li> Cubre tinacos, cisternas y depósitos de agua. </li>
+           <li> Ante la caída de ceniza volcánica evita consumir alimentos en la vía pública.</li>
+           <li> La ceniza puede ser usada para parques, jardines, macetas o tierras de cultivo, ya que es rica en minerales </li>
+           <li> Usa las vías de comunicación solo en caso de ser necesario. </li>
+           <br>
+           <img src="imagenes/cenizas.jpg" width="75%" height="75%">
+          </ul>
+         </div>
+       </div>
+       
+         <div data-role="collapsible" data-content-theme="false">
+           <h1> Medidas de prevención ante erupción</h1>
+         <div>
+          <h2> ¿Qué hacer en caso de erupción volcánica? </h2>
+          <ul>
+           <li> Mantén la calma. </li>
+           <li> Con los miembros de la familia preparen el maletín para emergencias, con alimentos no perecederos, radio, foco, documentos personales, medicinas y protectores para cubrir la nariz. </li>
+           <li>Ubiquen los albergues temporales, las rutas de evacuación y las zonas seguras en su comunidad.</li>
+           <li> Respeten los sitios declarados peligrosos.</li>
+           <li> Consulten a los Comités Municipales y Locales de Emergencias, sobre el sistema de evacuación y los centros de albergues para animales.</li>
+           <li>Establezcan una ruta de evacuación, lejos de los ríos y quebradas y los posibles albergues.</li>
+           <li>No se dejen llevar por falsos rumores de personas no autorizadas.</li>
+           <br>
+           <img src="imagenes/plan-contingencia-erupcin-volcnica.jpg" width="70%" height="45%">
+          </ul>
+         </div>
+       </div>
+
+         <div data-role="collapsible" data-content-theme="false">
+           <h1> Estados Afectados</h1>
+         <div>
+          <h2>¿En caso de una erupción importante, cuál es el radio máximo de afectación?</h2>
+           <p> Se limitarían a la cercanía del volcán, sobre radios del orden de 20 a 30 km. Un evento de esta naturaleza debería ser previsto por los sistemas de detección y monitoreo del volcán con anticipación suficiente para tomar medidas preventivas. En las grandes ciudades, como México, D.F., cuyo centro se encuentra a 72 km. del cráter del volcán, Puebla a unos 43 km., Cuernavaca a 63 km. o Tlaxcala a 53 km., los efectos de tal evento se limitarían a los problemas derivados de lluvias de cenizas volcánicas, similares a las del 30 de junio de 1997, pero más fuertes y con una proporción mayor de cenizas más gruesas.</p>
+           <br>
+           <center>
+           <img src="imagenes/mapa.jpg" width="80%" height="50%">
+           </center>
+         </div>
+       </div>
+<br>
+    
+<div>
+    <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2> Volcán Kilauea </h2>
+      <p>Hawai</p>
+      </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+      <h2>Volcán Teide</h2>
+      <p>España</p>
+       </a>
+    </li>
+  </ul>
+</div>
+</div><!--main -->
+<div data-role="footer" align="center" data-theme="a">
+   <div>
+      <img src="imagenes/persona_rosa.png" width="46" height="46">
+   </div>
+   <div>
+      <h4> Aplicacion Tres</h4>
+      <h4> María Fernanda Salazar Sánchez </h4>
+   </div>
+</div>
+</div> <!-- div page -->
+<!--Principal -->
+<!--pagina 1 -->
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1> Kīlauea</h1>
+     </div>
+    <div data-role="main" class="ui-content" align="center">
+     <div>
+     <h3> Tamaño </h3>
+      <p>Kilauea esta formado casi completamente por lava muy fluida, y reconocidos por tener un diámetro mayor que su altura. Registra una elevación de 1,222 metros según el Programa de Vulcanismo Global del Instituto Smithsoniano, o 1,247 metros hasta la cima, de acuerdo con el Observatorio Vulcanológico de Hawái (HVO, por sus siglas en inglés). </p>
+      <center>
+     <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image2','','imagenes/kilaue.jpg',1)"><img src="imagenes/volcank.jpg" width="327" height="225" id="Image2" /></a></p>
+     </center>
+     <h3>Antiguedad</h3>
+     <p>Las rocas más antiguas encontradas en la fecha datan de 23.000 años, y los científicos estiman que la primera erupción se produjo hace entre 300.000 y 600.000 años.</p>
+     <h3> Localización</h3>
+     <p>Está situado en la parte sur de la isla de Mauna Loa. </p>
+     <h3>Actividad Volcanica </h3>
+     <p> La primera erupción documentada del Kilauea se produjo en 1823, y desde entonces el volcán entró en erupción en repetidas ocasiones. La mayoría de las erupciones históricas se produjo en la cumbre o en la zona de ruptura sudoeste del volcán, y tuvo un carácter prolongado y efusivo; sin embargo, el registro geológico muestra que las erupciones explosivas eran muy comunes en la época que precede el contacto con los europeos, y si se reiniciara la actividad explosiva, representaría un peligro mucho más grande para la población.</p>
+      <center>
+     <img src="imagenes/pictures_from_the_sky_01.jpg" width="50%" height="50%">
+     </center>
+     <h3> Medidas de Preveencion </h3>
+      <ul>
+           <li> Mantén la calma. </li>
+           <li> Con los miembros de la familia preparen el maletín para emergencias, con alimentos no perecederos, radio, foco, documentos personales, medicinas y protectores para cubrir la nariz. </li>
+           <li>Ubiquen los albergues temporales, las rutas de evacuación y las zonas seguras en su comunidad.</li>
+           <li> Respeten los sitios declarados peligrosos.</li>
+           <li> Consulten a los Comités Municipales y Locales de Emergencias, sobre el sistema de evacuación y los centros de albergues para animales.</li>
+           <li>Establezcan una ruta de evacuación, lejos de los ríos y quebradas y los posibles albergues.</li>
+           <li>No se dejen llevar por falsos rumores de personas no autorizadas.</li>
+           <br>
+           <img src="imagenes/normas-de-seguridad-en-erupciones-volcanicas-2-728.jpg" width="70%" height="45%">
+          </ul>
+    </div>
+    </div><!--main -->
+    <div data-role="footer" data-theme="a">
+      <h4> María Fernanda Salazar Sánchez </h4>
+      </div>
+</div>
+<!--pagina 1 -->
+
+<!--pagina 2 -->
+
+
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1> Teide </h1>
+   </div>
+   <div data-role="main" class="ui-content" align="center">
+    <div>
+    <h3> Tamaño </h3>
+     <p> Con una altitud de 3718 metros sobre el nivel del mar y 7500 metros sobre el lecho oceánico, es el pico más alto de España, el de cualquier tierra emergida del océano Atlántico y el tercer mayor volcán de la Tierra desde su base en el lecho oceánico, después del Mauna Kea y el Mauna Loa, ambos en la isla de Hawái.</p>
+     <h3> Antiguedad </h3>
+     <p>Inició su formación hace 170.000 años tras el deslizamiento gigante del anterior edificio volcánico, aún mayor que el actual. Se formó así la caldera de Las Cañadas, de la que hoy sólo podemos ver parte de su pared puesto que al crecer el Teide en su interior, fue rellenándola con sus materiales.</p>
+     <center>
+      <p><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','imagenes/teide.jpg',1)"><img src="imagenes/teideubicacion.png" width="327" height="225" id="Image4" /></a></p>
+     </center>
+     <h3> Localizacion </h3>
+     <p>El Teide es un volcán situado en la isla de Tenerife (Islas Canarias, España)</p>     <h3> Actividad Volcanica</h3>
+     <p>Un reciente estudio, realizado por la Universidad de Granada, prevé que en un futuro el Teide podría tener erupciones violentas, dado que su estructura está muy consolidada. Además dicho estudio desveló que el Teide tiene una estructura prácticamente idéntica al Vesubio y al Etna </p>
+     <img src="imagenes/craterteide.JPG" width="50%" height="50%">
+     <h3> Medidad de Prevención</h3>
+      <ul>
+           <li> Mantén la calma. </li>
+           <li> Con los miembros de la familia preparen el maletín para emergencias, con alimentos no perecederos, radio, foco, documentos personales, medicinas y protectores para cubrir la nariz. </li>
+           <li>Ubiquen los albergues temporales, las rutas de evacuación y las zonas seguras en su comunidad.</li>
+           <li> Respeten los sitios declarados peligrosos.</li>
+           <li> Consulten a los Comités Municipales y Locales de Emergencias, sobre el sistema de evacuación y los centros de albergues para animales.</li>
+           <li>Establezcan una ruta de evacuación, lejos de los ríos y quebradas y los posibles albergues.</li>
+           <li>No se dejen llevar por falsos rumores de personas no autorizadas.</li>
+           <br>
+           <img src="imagenes/normas-de-seguridad-en-erupciones-volcanicas-2-728.jpg" width="70%" height="45%">
+          </ul>
+    </div>
+    </div>
+    <div data-role="footer" data-theme="a">
+       <h4> María Fernanda Salazar Sánchez </h4>
+    </div>
+  </div>
+
+<!--pagina 2 -->
+</body>
+</html>
