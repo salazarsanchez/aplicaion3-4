@@ -10,7 +10,7 @@
 	<name>Aplicacion tres VOLCANES</name>
 	
 	<description>
-	   Aplicacion que muestra informacón sobre volcanes.
+	   Aplicacion que muestra informacion sobre volcanes.
 	</description>
 	
 	<preference name="phonegap-version" value="3.1.0"/>
